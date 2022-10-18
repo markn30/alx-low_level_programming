@@ -9,6 +9,7 @@
  *
  * Return: a+b
  */
+int a,b
 
 int add(int a, int b)
 {
