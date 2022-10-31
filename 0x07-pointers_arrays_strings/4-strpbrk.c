@@ -1,33 +1,23 @@
- (25 sloc)  449 Bytes
 #include "main.h"
-#define NULL 0
-
 /**
- * _strpbrk - return pointer to byte in s that matches a byte in accept
- * @s: string to search
- * @accept: target matches
- * Return: pointer to index of string at first occurence
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	int x = 0, y;
+	int k;
 
-	while (s[x] != '\0')
+	while (*s)
 	{
-		for (y = 0; accept[y] != '\0'; y++)
+		for (k = 0; accept[k]; k++)
 		{
-			if (s[x] == accept[y])
-			{
-				s = &s[x];
-				return (s);
-			}
-
+		if (*s == accept[k])
+		return (s);
 		}
-
-		x++;
+	s++;
 	}
 
-	return (NULL);
-
+return ('\0');
 }
