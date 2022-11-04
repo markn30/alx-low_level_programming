@@ -1,19 +1,3 @@
-Sarah-okolo
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0A-argc_argv/4-add.c
-@Sarah-okolo
-Sarah-okolo made 2 files executable
- 1 contributor
-Executable File  85 lines (73 sloc)  1.11 KB
 #include <stdio.h>
 #include "main.h"
 
